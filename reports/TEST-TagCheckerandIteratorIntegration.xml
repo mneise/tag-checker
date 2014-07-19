@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Tag Checker and Iterator Integration" errors="0" tests="8" failures="0" time="0.005" timestamp="2014-07-19T17:13:49">
+  <testcase classname="Tag Checker and Iterator Integration" name="Should be correctly tagged" time="0.003"></testcase>
+  <testcase classname="Tag Checker and Iterator Integration" name="Should be correctly tagged" time="0"></testcase>
+  <testcase classname="Tag Checker and Iterator Integration" name="Should be correctly tagged" time="0"></testcase>
+  <testcase classname="Tag Checker and Iterator Integration" name="Should be correctly tagged" time="0"></testcase>
+  <testcase classname="Tag Checker and Iterator Integration" name="Should be correctly tagged" time="0"></testcase>
+  <testcase classname="Tag Checker and Iterator Integration" name="Should find incorrect closing tag" time="0"></testcase>
+  <testcase classname="Tag Checker and Iterator Integration" name="Should find unmatched closing tag" time="0.001"></testcase>
+  <testcase classname="Tag Checker and Iterator Integration" name="Should find unmatched opening tag" time="0"></testcase>
+</testsuite>
+</testsuites>

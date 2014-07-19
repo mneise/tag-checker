@@ -21,10 +21,6 @@
     "karma-phantomjs-launcher": "^0.1.4",
     "karma-spec-reporter": "0.0.13",
     "body-parser": "^1.4.3",
-    "grunt-protractor-runner": "^1.0.0",
-    "karma-requirejs": "^0.2.2",
-    "requirejs": "^2.1.14",
-    "jasmine-node": "^1.14.5",
-    "grunt-contrib-jasmine": "^0.6.5"
+    "grunt-protractor-runner": "^1.0.0"
   }
 }

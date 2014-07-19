@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Tag Checker" errors="0" tests="10" failures="0" time="0.002" timestamp="2014-07-19T17:13:49">
+  <testcase classname="Tag Checker" name="Should return correct tag letter" time="0"></testcase>
+  <testcase classname="Tag Checker" name="Should return if tag is opening tag" time="0"></testcase>
+  <testcase classname="Tag Checker" name="Should not be matching closing tag - empty stack" time="0"></testcase>
+  <testcase classname="Tag Checker" name="Should not be matching closing tag - wrong closing tag" time="0"></testcase>
+  <testcase classname="Tag Checker" name="Should be matching closing tag - stack one element" time="0"></testcase>
+  <testcase classname="Tag Checker" name="Should be matching closing tag - stack two elements" time="0"></testcase>
+  <testcase classname="Tag Checker" name="Should return correct error message - unmatched closing tag" time="0"></testcase>
+  <testcase classname="Tag Checker" name="Should return correct error message - wrong closing tag" time="0"></testcase>
+  <testcase classname="Tag Checker" name="Should return correct final tag stack message - correctly tagged" time="0.001"></testcase>
+  <testcase classname="Tag Checker" name="Should return correct final tag stack message - unmatched opening tag" time="0"></testcase>
+</testsuite>
+</testsuites>
