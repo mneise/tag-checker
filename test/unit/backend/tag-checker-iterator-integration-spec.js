@@ -68,4 +68,8 @@ describe("Tag Checker and Iterator Integration", function() {
         var expected = "Expected </B> found #";
         expect(result.message).toBe(expected);
     });
+
+    it("Should fail", function() {
+        expect(true).toBeFalsy();
+    });
 });
