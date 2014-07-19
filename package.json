@@ -1,0 +1,22 @@
+{
+  "name": "tag-checker-app",
+  "version": "0.0.0",
+  "description": "A simple tag checker",
+  "main": "main.js",
+  "author": "Maria Neise",
+  "devDependencies": {
+    "express": "^4.4.4",
+    "grunt": "^0.4.5",
+    "grunt-jasmine-node": "^0.2.1",
+    "morgan": "^1.1.1",
+    "protractor": "^0.24.2",
+    "karma": "^0.12.16",
+    "bower": "^1.3.5",
+    "karma-sauce-launcher": "^0.2.8",
+    "karma-jasmine": "^0.1.5",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-safari-launcher": "^0.1.1",
+    "grunt-karma": "^0.8.3"
+  }
+}

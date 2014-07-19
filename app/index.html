@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html ng-app="tagChecker">
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <title>Simple Tag Checker</title>
+
+	    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	    <style>
+		 html {
+           overflow-y:scroll;
+         }
+		 body {
+           padding-top:50px;
+         }
+	    </style>
+
+    </head>
+
+    <body ng-controller="tagCheckerController">
+	    <div class="container">
+
+		    <div class="row">
+		        <div class="jumbotron text-center">
+			        <h1>Check your tags!</h1>
+		        </div>
+            </div>
+
+		    <div class="row" ng-show="message">
+			    <div class="text-center alert"
+                     ng-class="{'alert-success': isTaggedCorrectly, 'alert-danger': !isTaggedCorrectly}"
+                     id="result" ng-bind="message">
+			    </div>
+		    </div>
+
+		    <div class="row">
+			    <div class="col-sm-8 col-sm-offset-2 text-center">
+				    <form>
+					    <div class="form-group">
+						    <input type="text" class="form-control input-lg text-center" id="input-text"
+                                   placeholder="<C>I am tagged corretly!</C>" ng-model="formData.text">
+					    </div>
+
+					    <button type="submit" class="btn btn-primary btn-lg" 
+                                ng-click="validateText()" id="validate-button">
+                            Validate
+                        </button>
+				    </form>
+			    </div>
+		    </div>
+
+	    </div>
+
+	    <script src="bower_components/angular/angular.min.js"></script>
+	    <script src="js/core.js"></script>
+
+    </body>
+</html>
