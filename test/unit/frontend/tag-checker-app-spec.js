@@ -15,13 +15,13 @@ describe('tag checker app', function () {
             });
         }));
 
-        it('reset result when no input text given', function () {
+        it('should reset result when no input text given', function () {
             scope.formData = {};
             scope.validateText();
             expect(scope.message).toBe('');
         });
 
-        it('set correct results on validateText', function () {
+        it('should set correct results on validateText', function () {
             var response = {
                 isTaggedCorrectly: true,
                 message: "Correctly tagged paragraph"

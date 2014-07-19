@@ -2,6 +2,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         jasmine_node: {
             options: {
+                specFolders:[],
                 forceExit: true,
                 match: '.',
                 matchall: false,

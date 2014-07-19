@@ -20,7 +20,7 @@ module.exports = function(config) {
             ''
         ],
 
-        reporters: ['progress'],
+        reporters: ['spec'],
 
         port: 9876,
 
@@ -30,7 +30,7 @@ module.exports = function(config) {
 
         autoWatch: false,
 
-        browsers: ['Chrome', 'Firefox'],
+        browsers: ['PhantomJS'],
 
         singleRun: true
     });
